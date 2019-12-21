@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="765px" height="760px" viewBox="0 0 765 760" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>atom</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-133.000000, -133.000000)" fill-rule="nonzero">
+            <g id="atom" transform="translate(87.000000, 87.000000)">
+                <g id="Group" transform="translate(15.863990, 14.212435)">
+                    <g transform="translate(203.703256, 40.028389)" fill="#000000" fill-opacity="0" id="Path" stroke="#2DABFE" stroke-dasharray="44" stroke-width="15">
+                        <g transform="translate(0.109788, 0.145072)">
+                            <path d="M208.410399,0 C66.2289172,0 0,229.867757 0,371.979881 C0,514.092005 66.2289172,743.959762 208.410399,743.959762 C350.591881,743.959762 416.820798,514.092005 416.820798,371.979881 C416.820798,229.867757 350.591881,0 208.410399,0 Z"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(412.598774, 411.673890) rotate(-90.000000) translate(-412.598774, -411.673890) translate(203.598774, 39.173890)" fill="#000000" fill-opacity="0" id="Path" stroke="#2DABFE" stroke-dasharray="16" stroke-width="20">
+                        <g transform="translate(0.109788, 0.145072)">
+                            <path d="M208.410399,0 C66.2289172,0 0,229.867757 0,371.979881 C0,514.092005 66.2289172,743.959762 208.410399,743.959762 C350.591881,743.959762 416.820798,514.092005 416.820798,371.979881 C416.820798,229.867757 350.591881,0 208.410399,0 Z"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(411.618765, 412.227168) rotate(135.000000) translate(-411.618765, -412.227168) translate(202.618765, 39.727168)" fill="#000000" fill-opacity="0" id="Path" stroke="#2DABFE" stroke-width="15">
+                        <g transform="translate(0.109788, 0.145072)">
+                            <path d="M208.410399,0 C66.2289172,0 0,229.867757 0,371.979881 C0,514.092005 66.2289172,743.959762 208.410399,743.959762 C350.591881,743.959762 416.820798,514.092005 416.820798,371.979881 C416.820798,229.867757 350.591881,0 208.410399,0 Z"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(412.149563, 411.549120) rotate(-135.000000) translate(-412.149563, -411.549120) translate(203.149563, 39.049120)" fill="#000000" fill-opacity="0" id="Path" stroke="#2DABFE" stroke-width="15">
+                        <g transform="translate(0.109788, 0.145072)">
+                            <path d="M208.410399,0 C66.2289172,0 0,229.867757 0,371.979881 C0,514.092005 66.2289172,743.959762 208.410399,743.959762 C350.591881,743.959762 416.820798,514.092005 416.820798,371.979881 C416.820798,229.867757 350.591881,0 208.410399,0 Z"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(409.000000, 411.000000) rotate(30.802000) translate(-409.000000, -411.000000) translate(269.000000, 271.000000)" fill="#2DABFE" id="Path">
+                        <g transform="translate(0.032853, 0.092144)">
+                            <path d="M139.481687,0.484791546 C216.421714,0.484791546 278.89105,62.711957 278.89105,139.353717 C278.89105,215.995477 216.421714,278.222642 139.481687,278.222642 C62.5416597,278.222642 0.0723241874,215.995477 0.0723241874,139.353717 C0.0723241874,62.711957 62.5416597,0.484791546 139.481687,0.484791546 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
