@@ -15,6 +15,9 @@ model-viewer {
   background-color: #ffffff;
 }
 
+.demo {
+height: 100vh;
+}
 
 .progress-bar {
   display: block;
@@ -86,6 +89,7 @@ model-viewer {
   from { transform: translateX(100px); }
   to   { transform: translateX(-100px); }
 }
+
 
 model-viewer > #ar-prompt {
   position: absolute;
