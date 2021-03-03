@@ -14,10 +14,11 @@
   <div class="demo">
 
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="assets/models/jjbot.glb" camera-controls reveal="interaction" animation-name="mixamo.com" ios-src="assets/models/jjbot.usdz" ar-modes="webxr scene-viewer quick-look" ar>
+    <model-viewer src="assets/models/jjbot.glb" camera-controls reveal="interaction" autoplay animation-name="mixamo.com" ios-src="assets/models/jjbot.usdz" ar-modes="webxr scene-viewer quick-look" ar>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
+       <div id="button-load">Play Exercise</div>
   <!--    <button slot="ar-button" id="ar-button">
           View in your space
       </button>
