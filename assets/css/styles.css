@@ -92,6 +92,7 @@ height: 75vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-image: url("../../images/jump.png");
   }
 
   #button-load {
