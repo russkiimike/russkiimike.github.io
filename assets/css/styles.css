@@ -147,7 +147,7 @@ model-viewer > #ar-prompt > img {
 }
 
 .slides {
-  display: flex;
+  display: inline-flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
