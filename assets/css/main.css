@@ -92,7 +92,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #171826;
 	}
 
 		body.is-preload-0 *, body.is-preload-0 *:before, body.is-preload-0 *:after {
@@ -1251,14 +1251,16 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease;
 			transition: transform 0.5s ease;
-			background-color: #fff;
+			background-color: transparent;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
-			border-radius: 0;
+			border-radius: 15px 15px;
 			min-height: 50em;
 			width: 50%;
 			z-index: 1;
+			border: 2px;
+
 		}
 
 			.panel > .image img {
@@ -1287,7 +1289,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease;
 			transition: transform 0.5s ease;
-			background-color: #ffffff;
+			background-color: transparent;
 			padding: 3em;
 			width: 50%;
 		}
