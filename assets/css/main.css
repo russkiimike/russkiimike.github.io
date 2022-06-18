@@ -1255,11 +1255,10 @@ input, select, textarea {
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
-			border-radius: 15px 15px;
 			min-height: 50em;
 			width: 50%;
 			z-index: 1;
-			border: 2px;
+
 
 		}
 
@@ -1361,7 +1360,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.panel {
-				width: 75em;
+				width: 35em;
 			}
 
 				.panel > .image {
@@ -1377,7 +1376,7 @@ input, select, textarea {
 			}
 
 				.panel > .image {
-					min-height: 35em;
+					min-height: 17em;
 				}
 
 				.panel > .content {
@@ -1396,7 +1395,7 @@ input, select, textarea {
 			}
 
 				.panel > .image {
-					min-height: 60vh;
+					min-height: 30vh;
 					width: 100%;
 				}
 
@@ -1434,8 +1433,8 @@ input, select, textarea {
 			}
 
 				.panel > .image {
-					min-height: 18em;
-					max-height: 30vh;
+					min-height: 10em;
+					max-height: 20vh;
 				}
 
 				.panel > .content {
@@ -1459,7 +1458,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			.panel > .image {
-				min-height: 15em;
+				min-height: 10em;
 			}
 
 		}
