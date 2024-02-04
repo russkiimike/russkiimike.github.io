@@ -55,9 +55,22 @@
     display: none;
   }
 
+  
+  /* This keeps child nodes hidden while the element loads */
+  :not(:defined) > * {
+    display: none;
+  }
+
+  #body {
+    background-color: #141414;
+  }
+
   model-viewer {
-    background-color: #eee;
+    background-color: #141414;
     overflow-x: hidden;
+    width:100%;
+    height:100%;
+    
   }
 
   #ar-button {
@@ -65,7 +78,7 @@
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 12px 50%;
-    background-color: #fff;
+    background-color: #4481f1;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -74,7 +87,7 @@
     padding: 0px 16px 0px 40px;
     font-family: Roboto Regular, Helvetica Neue, sans-serif;
     font-size: 14px;
-    color:#4285f4;
+    color:#ffffff;
     height: 36px;
     line-height: 36px;
     border-radius: 18px;
@@ -155,9 +168,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #fff;
+    background-color: #141410;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
     display: flex;
   }
@@ -173,5 +186,6 @@
   .slide:focus-visible {
     outline: 1px solid #4285f4;
   }
+
 
 </style>
