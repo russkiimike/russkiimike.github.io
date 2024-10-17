@@ -1534,10 +1534,10 @@ input, select, textarea {
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
-		margin: 3em 0 0 0;
+		margin: 5em 0 0 0; /* Adjusted margin to move it higher */
 		opacity: 1.0;
 		text-align: center;
-		font-family: "Arial"
+		font-family: "Arial";
 	}
 
 		#footer .copyright {

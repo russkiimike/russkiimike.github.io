@@ -11,36 +11,36 @@
         let fallbackMessage = "If you are not redirected automatically, follow this link to the English version.";
 
         if (userLang.startsWith('es')) { // Spanish
-            redirectUrl = "https://es.gymstreak.com"; // Redirect to Spanish version
+            redirectUrl = "https://es.gymstreak.com/blog"; // Redirect to Spanish version
             fallbackMessage = "Si no se redirige automáticamente, siga este enlace a la versión en español.";
         } else if (userLang.startsWith('fr')) { // French
-            redirectUrl = "https://fr.gymstreak.com"; // Redirect to French version
+            redirectUrl = "https://fr.gymstreak.com/blog"; // Redirect to French version
             fallbackMessage = "Si vous n'êtes pas redirigé automatiquement, suivez ce lien vers la version française.";
         } else if (userLang.startsWith('de')) { // German
-            redirectUrl = "https://de.gymstreak.com"; // Redirect to German version
+            redirectUrl = "https://de.gymstreak.com/blog"; // Redirect to German version
             fallbackMessage = "Wenn Sie nicht automatisch weitergeleitet werden, folgen Sie diesem Link zur deutschen Version.";
         } else if (userLang.startsWith('hi')) { // Hindi
-            redirectUrl = "https://hi.gymstreak.com"; // Redirect to Hindi version
+            redirectUrl = "https://hi.gymstreak.com/blog"; // Redirect to Hindi version
             fallbackMessage = "यदि आपको स्वचालित रूप से पुनर्निर्देशित नहीं किया जाता है, तो इस लिंक पर जाएं: हिंदी संस्करण।";
         } else if (userLang.startsWith('nl')) { // Dutch
-            redirectUrl = "https://nl.gymstreak.com"; // Redirect to Dutch version
+            redirectUrl = "https://nl.gymstreak.com/blog"; // Redirect to Dutch version
             fallbackMessage = "Als u niet automatisch wordt doorgestuurd, volgt u deze link naar de Nederlandse versie.";
         } else if (userLang.startsWith('pt')) { // Portuguese
-            redirectUrl = "https://pt.gymstreak.com"; // Redirect to Portuguese version
+            redirectUrl = "https://pt.gymstreak.com/blog"; // Redirect to Portuguese version
             fallbackMessage = "Se você não for redirecionado automaticamente, siga este link para a versão em português.";
         } else if (userLang.startsWith('ja')) { // Japanese
-            redirectUrl = "https://jp.gymstreak.com"; // Redirect to Japanese version
+            redirectUrl = "https://jp.gymstreak.com/blog"; // Redirect to Japanese version
             fallbackMessage = "自動的にリダイレクトされない場合は、このリンクをクリックして日本語版にアクセスしてください。";
         }
 
         // Redirect after a short delay
         setTimeout(() => {
             window.location.href = redirectUrl;
-        }, 1000); // Redirect after 2 seconds
+        }, 500); // Redirect after 2 seconds
     </script>
 </head>
 <body>
-    <p id="fallback-message">
+    <p id="fallback-message" style="text-align: center;">
         If you are not redirected automatically, follow this <a href="https://blog.gymstreak.com">link to the English version</a>.
     </p>
     <script>
